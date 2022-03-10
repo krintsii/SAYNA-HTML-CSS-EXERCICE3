@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:"Raleway", Arial, sans-serif  ;
+}
+
+nav {
+    background-image: url(assets/img/header_bg.jpg);
+    color: white;   
+}
+.navbar{
+    justify-content: center;
+}
+.nav {
+    align-items: center;
+}
+.nav-link {
+    color: white;
+    padding: 0.5rem 3.5rem;
+}
+.nav-link:hover {
+    color: white;  
+}
+.nav-item{
+    font-size: 20px;
+}
+.container-fluid{
+    width: auto;
+}
+.vert{
+    color: #3d9f96;
+}
+/* pour le deuxieme partie */
+section{
+    text-align: center;
+    background-image: url(assets/img/seperator1-.jpg);
+    margin: 1px 0 0 0;
+    color: white;
+}
+
+h6{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.button{
+    border-radius: 2.25rem;
+    margin: 20px 0 20px 0;
+}
+.sary{
+    margin-top: 60px;
+}
+/* pour le troisieme partie  */
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+.elant {
+    padding: 0 20px;
+}
+.gras{
+    font-size: 20px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+    color: #3d9f96;
+    font-weight: 500;
+}
+.marge {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+/* pou le figure telephone  */
+figure{
+    position: relative;  
+  
+}
+
+#sary{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+/* pour le 3 colone  */
+.row{
+    --bs-gutter-x:0;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   width: 71%;
+    
+   
+}
+.pe {
+    margin-top: 15px ;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+h5{
+    font-size: 16px;
+}
+
+.habe {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.gauche {
+    text-align: left;
+}
+
+/*pour la troisieme partie de contenue*/
+.separator{
+    background-image: url(assets/img/seperator2.jpg);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+/*pour le rond blanc*/
+.petitrond{
+    background-color: #FFFFFF;
+    margin: auto;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+/*pour le quatriemme contenue*/
+.part4 {
+    padding: 20px;
+    margin-left: 16%;
+    margin-right: 20%;
+    margin-top: 5%;
+    align-items: center; 
+}
+/*pour les 3 Screenshot*/
+.flexi {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+.flexii {
+    padding: 0 300px 0 0 ; 
+    width: 25%;
+
+}
+/*pour le photo(grida)*/
+.grida {
+    position: relative;
+    padding:0 350px 80px 0;
+}
+.pika {
+    position: absolute;
+    top: 36%;
+}
+.grandir {
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+.buttone {
+    border-radius: 2.25rem;
+    margin: 20px 0 20px 0;
+    padding: 10px 70px;
+}
+ .pa {
+     padding: 0 0 0 20px ;
+ }
+
+
+ .font5 {
+    margin-left: 10%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: 40% 20% 35%;
+    justify-content: center;
+  
+    padding: 0 60px ;
+}
+/*footer*/
+.footer {
+    margin-left: 15%;
+    margin-right: 12%;   
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-family:"Raleway", Arial, sans-serif;
+}
+
+.icone {
+    padding:0 20px 0 10px;
+    width: max-content;
+}
+h3{
+    font-weight: 600;
+}
+
